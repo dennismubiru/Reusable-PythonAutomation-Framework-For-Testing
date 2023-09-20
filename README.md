@@ -1,5 +1,5 @@
 Test Automation Project
-This is my first test automation project based on Selenium-Webdriver with Python. It's still developing package of automated tests of phptravels.net demo website. The collection of tests contains:
+This is a python  test automation project based on Selenium-Webdriver with Python and pytest frame work. It's still developing package of automated tests of phptravels.net demo website. The collection of tests contains:
 
 user login tests (correct / incorrect login and password)
 hotels search tests
