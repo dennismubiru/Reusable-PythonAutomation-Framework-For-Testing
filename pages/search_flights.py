@@ -1,9 +1,9 @@
-import pytest
-from selenium.webdriver import Chrome
-from selenium.webdriver.common.keys import Keys
+from webbrowser import Chrome
+
 from selenium.webdriver.common.by import By
-
-
+from selenium.webdriver.common.keys import Keys
+import pytest
+#@pytest.mark.usefixtures('browser')
 @pytest.fixture
 def browser():
     # Initialize ChromeDriver
@@ -11,14 +11,18 @@ def browser():
     # Wait implicitly for elements to be ready before attempting interactions
     driver.implicitly_wait(10)
     # Return the driver object at the end of setup
+    #cookie = {'name': 'foo', 'value': 'bar'}
+    #driver.add_cookie(cookie)
+    # And now output all the available cookies for the current URL
+    #driver.get_cookies()
     yield driver
     # For cleanup, quit the driver
     driver.quit()
-def test_basic_duckduckgo_search(browser):
+def test_duckduckgo_search(browser):
     # Set up some test case data
+
     URL = 'https://www.duckduckgo.com'
     PHRASE = 'panda'
-
     # Navigate to the DuckDuckGo home page
     browser.get(URL)
     # Find the search input element
