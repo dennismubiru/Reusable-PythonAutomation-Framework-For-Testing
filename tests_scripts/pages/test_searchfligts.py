@@ -1,4 +1,0 @@
-
-from pages.search_query import test_duckduckgo_search
-
-test_duckduckgo_search

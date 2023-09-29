@@ -1,0 +1,3 @@
+from pages.online_checkin import test_checkin
+from configfiles.conftest import browser
+test_checkin
