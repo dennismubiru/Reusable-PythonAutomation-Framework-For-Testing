@@ -1,0 +1,17 @@
+this is useful information
+this is a warning
+this is detailed debug information
+Selenium Manager binary found at: C:\Users\mukasajulius1\AppData\Roaming\Python\Python311\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+Executing process: C:\Users\mukasajulius1\AppData\Roaming\Python\Python311\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser MicrosoftEdge --debug --output json
+msedgedriver not found in PATH
+edge detected at C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Running command: wmic datafile where name='C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe' get Version /value
+Output: "\r\r\n\r\r\nVersion=117.0.2045.43\r\r\n\r\r\n\r\r\n\r"
+Detected browser: edge 117.0.2045.43
+Reading msedgedriver version from https://msedgedriver.azureedge.net/LATEST_RELEASE_117_WINDOWS
+Required driver: msedgedriver 117.0.2045.47
+Downloading msedgedriver 117.0.2045.47 from https://msedgedriver.azureedge.net/117.0.2045.47/edgedriver_win64.zip
+Driver path: C:\Users\mukasajulius1\.cache\selenium\msedgedriver\win64\117.0.2045.47\msedgedriver.exe
+Browser path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Using driver at: C:\Users\mukasajulius1\.cache\selenium\msedgedriver\win64\117.0.2045.47\msedgedriver.exe
+Started executable: `C:\Users\mukasajulius1\.cache\selenium\msedgedriver\win64\117.0.2045.47\msedgedriver.exe` in a child process with pid: 10288
